@@ -8,7 +8,6 @@ analysis on AG News (Part III).
 
 | File | Purpose |
 |---|---|
-| `check_env.py` | Prints Python / PyTorch versions and the available device (CUDA, MPS or CPU) |
 | `config.py` | Shared settings: random seed, generation prompts, decoding settings |
 | `data.py` | Downloads WikiText-2, tokenizes, builds the vocabulary, saves token streams to `data/` |
 | `ngram.py` | Part I: trigram LM with interpolated Kneser-Ney smoothing (implemented from scratch) |
@@ -31,7 +30,6 @@ Tested with Python 3.13 and PyTorch 2.14 on macOS (Apple Silicon, MPS backend).
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python check_env.py # confirms which device will be used
 ```
 
 The scripts use CUDA if available, otherwise Apple MPS, otherwise CPU.

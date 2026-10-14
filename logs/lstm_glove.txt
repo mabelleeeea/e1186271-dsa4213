@@ -1,0 +1,19 @@
+Run lstm_glove on mps
+{'total': 8032928, 'trainable': 6032928, 'embedding': 2000000, 'non_embedding': 6032928}
+epoch  1 | train 6.954 | val 6.531 (ppl 686.3) | 125s
+epoch  2 | train 6.657 | val 6.271 (ppl 529.2) | 125s
+epoch  3 | train 6.420 | val 6.063 (ppl 429.7) | 124s
+epoch  4 | train 6.254 | val 5.902 (ppl 365.9) | 123s
+epoch  5 | train 6.081 | val 5.742 (ppl 311.8) | 123s
+epoch  6 | train 5.905 | val 5.594 (ppl 268.9) | 125s
+epoch  7 | train 5.766 | val 5.497 (ppl 243.9) | 121s
+epoch  8 | train 5.661 | val 5.420 (ppl 225.9) | 120s
+epoch  9 | train 5.574 | val 5.356 (ppl 211.9) | 122s
+epoch 10 | train 5.497 | val 5.304 (ppl 201.1) | 126s
+[the team scored] -> the year for all of his first cup cup games . they was the longest record of the united states , which won in the year of the season .
+[after the election , the] -> song , which was an second of a series from her music . <eos> the production of the film , and the game was released on a number episode on
+[the film was directed] -> by the " sweet video " : " the " " . " <eos> a first of the song was the first episode of the first episode to a "
+[the bird was found in] -> the 1970s . <eos> in the 1970s of the south century , in the united states , the first of a population of the river area of the church ,
+[the experiment caused] -> is likely and as more than the year , in a few , including the other exception . the same of the most powerful space , a few - and
+
+lstm_glove: test ppl 186.64 | best epoch 10 | train 20.6 min | 35023 tok/s

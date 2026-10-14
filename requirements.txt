@@ -1,0 +1,6 @@
+torch
+datasets
+numpy
+gensim
+scikit-learn
+matplotlib

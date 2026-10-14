@@ -1,0 +1,102 @@
+{
+  "run": "rnn_random",
+  "args": {
+    "model": "rnn",
+    "emb": "random",
+    "epochs": 10,
+    "batch_size": 64,
+    "seq_len": 64,
+    "lr": 0.001,
+    "emb_dim": 100,
+    "hidden": 256,
+    "layers": 2,
+    "heads": 4,
+    "ff": 1024,
+    "dropout": 0.3,
+    "clip": 1.0,
+    "max_batches": null
+  },
+  "device": "mps",
+  "params": {
+    "total": 7363232,
+    "trainable": 7363232,
+    "embedding": 2000000,
+    "non_embedding": 5363232
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 6.600252825701948,
+      "val_loss": 5.9188016013294495,
+      "epoch_time_s": 118.30873166699894
+    },
+    {
+      "epoch": 2,
+      "train_loss": 6.024146535047411,
+      "val_loss": 5.674198748062198,
+      "epoch_time_s": 114.95749875000911
+    },
+    {
+      "epoch": 3,
+      "train_loss": 5.818105122237064,
+      "val_loss": 5.563776362187015,
+      "epoch_time_s": 115.05360275000567
+    },
+    {
+      "epoch": 4,
+      "train_loss": 5.687691423886763,
+      "val_loss": 5.487353692247616,
+      "epoch_time_s": 112.19630108395359
+    },
+    {
+      "epoch": 5,
+      "train_loss": 5.589683713439255,
+      "val_loss": 5.426420412839996,
+      "epoch_time_s": 108.1807332499884
+    },
+    {
+      "epoch": 6,
+      "train_loss": 5.513219436132802,
+      "val_loss": 5.392014180456382,
+      "epoch_time_s": 111.90981995803304
+    },
+    {
+      "epoch": 7,
+      "train_loss": 5.451491463445326,
+      "val_loss": 5.36136119242378,
+      "epoch_time_s": 116.90131354198093
+    },
+    {
+      "epoch": 8,
+      "train_loss": 5.400056369314684,
+      "val_loss": 5.336201709083008,
+      "epoch_time_s": 119.11964837502455
+    },
+    {
+      "epoch": 9,
+      "train_loss": 5.35528342812693,
+      "val_loss": 5.303316780047681,
+      "epoch_time_s": 111.8325185420108
+    },
+    {
+      "epoch": 10,
+      "train_loss": 5.318355808030015,
+      "val_loss": 5.291386670121436,
+      "epoch_time_s": 116.30868670798372
+    }
+  ],
+  "best_epoch": 10,
+  "test_cross_entropy": 5.222529693568125,
+  "test_ppl": 185.4026031151775,
+  "test_tokens_scored": 239726,
+  "train_time_s": 1144.7688546259888,
+  "inference_time_s": 4.996504542010371,
+  "inference_tokens_per_s": 47978.741535086236,
+  "samples": {
+    "the team scored": "the goals and he was one of six - winning and in the final , as a result of the series 's team in the united states , and the",
+    "after the election , the": "jin would continue to capture the growth of the world of the french century , the first part of the british empire ( the general of a \" i ,",
+    "the film was directed": "by the song 's video , was released in a series with the album in the episode . the book 's a series of the first game were a single",
+    "the bird was found in": "the 17th century , the latter 's main battery and are eventually a small amount of the genus . <eos> in late june the south end of the battle ,",
+    "the experiment caused": "heavy casualties and were buried in the town . this is a few miles - 3 - 0 . 6 % of the creek , and the south - south"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "run": "transformer_random",
+  "args": {
+    "model": "transformer",
+    "emb": "random",
+    "epochs": 10,
+    "batch_size": 64,
+    "seq_len": 64,
+    "lr": 0.001,
+    "emb_dim": 100,
+    "hidden": 256,
+    "layers": 2,
+    "heads": 4,
+    "ff": 1024,
+    "dropout": 0.3,
+    "clip": 1.0,
+    "max_batches": null
+  },
+  "device": "mps",
+  "params": {
+    "total": 8762272,
+    "trainable": 8762272,
+    "embedding": 2000000,
+    "non_embedding": 6762272
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 6.506984440021457,
+      "val_loss": 5.861134987022596,
+      "epoch_time_s": 150.89047187496908
+    },
+    {
+      "epoch": 2,
+      "train_loss": 5.9687592795502065,
+      "val_loss": 5.613909329197398,
+      "epoch_time_s": 150.03551154199522
+    },
+    {
+      "epoch": 3,
+      "train_loss": 5.725399144124889,
+      "val_loss": 5.467974089966881,
+      "epoch_time_s": 146.96020574995782
+    },
+    {
+      "epoch": 4,
+      "train_loss": 5.556916225007442,
+      "val_loss": 5.380753107824024,
+      "epoch_time_s": 143.60417079203762
+    },
+    {
+      "epoch": 5,
+      "train_loss": 5.429194976025087,
+      "val_loss": 5.311747670233006,
+      "epoch_time_s": 151.18594937497983
+    },
+    {
+      "epoch": 6,
+      "train_loss": 5.328577527234665,
+      "val_loss": 5.2529711869333395,
+      "epoch_time_s": 155.36685049999505
+    },
+    {
+      "epoch": 7,
+      "train_loss": 5.2462873280791325,
+      "val_loss": 5.213523383549819,
+      "epoch_time_s": 159.49550758302212
+    },
+    {
+      "epoch": 8,
+      "train_loss": 5.176963414499282,
+      "val_loss": 5.182458098692864,
+      "epoch_time_s": 159.72248362499522
+    },
+    {
+      "epoch": 9,
+      "train_loss": 5.117883241807997,
+      "val_loss": 5.158945527199699,
+      "epoch_time_s": 158.3931544170482
+    },
+    {
+      "epoch": 10,
+      "train_loss": 5.065880388761187,
+      "val_loss": 5.1334881984896885,
+      "epoch_time_s": 143.50946845900035
+    }
+  ],
+  "best_epoch": 10,
+  "test_cross_entropy": 5.058439146410903,
+  "test_ppl": 157.344732466563,
+  "test_tokens_scored": 239726,
+  "train_time_s": 1519.1637739180005,
+  "inference_time_s": 7.522993040969595,
+  "inference_tokens_per_s": 31865.774525441153,
+  "samples": {
+    "the team scored": "a team on 4 march 1996 . this decision made one with the team as well as the team in the game , as a result of the game .",
+    "after the election , the": "king , was appointed of the king , but later in the 19th century . <eos> the cathedral , the general of jerusalem was not considered the first treaty in",
+    "the film was directed": "by the episode . despite the character , the song was inspired by the video version of the album , the song had been nominated on the first week of",
+    "the bird was found in": "the 1930s . <eos> in march 2007 , there was much of his life . the novel was a \" a man . the nightingale for the poem were \"",
+    "the experiment caused": "as the new zealand regiment to the 6th century in the united states on the north pacific ocean . the north of the late 20th century , the missouri of"
+  }
+}

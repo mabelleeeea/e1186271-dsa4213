@@ -1,0 +1,102 @@
+{
+  "run": "lstm_random",
+  "args": {
+    "model": "lstm",
+    "emb": "random",
+    "epochs": 10,
+    "batch_size": 64,
+    "seq_len": 64,
+    "lr": 0.001,
+    "emb_dim": 100,
+    "hidden": 256,
+    "layers": 2,
+    "heads": 4,
+    "ff": 1024,
+    "dropout": 0.3,
+    "clip": 1.0,
+    "max_batches": null
+  },
+  "device": "mps",
+  "params": {
+    "total": 8032928,
+    "trainable": 8032928,
+    "embedding": 2000000,
+    "non_embedding": 6032928
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 6.95189881066679,
+      "val_loss": 6.449083415787805,
+      "epoch_time_s": 126.70115079195239
+    },
+    {
+      "epoch": 2,
+      "train_loss": 6.523421641056406,
+      "val_loss": 6.136947506107013,
+      "epoch_time_s": 125.30265912500909
+    },
+    {
+      "epoch": 3,
+      "train_loss": 6.307435131548171,
+      "val_loss": 5.982832189980974,
+      "epoch_time_s": 129.00494516600156
+    },
+    {
+      "epoch": 4,
+      "train_loss": 6.1767127167663585,
+      "val_loss": 5.871190933727157,
+      "epoch_time_s": 129.08742150000762
+    },
+    {
+      "epoch": 5,
+      "train_loss": 6.066042567766523,
+      "val_loss": 5.785751720533659,
+      "epoch_time_s": 132.35606908402406
+    },
+    {
+      "epoch": 6,
+      "train_loss": 5.961649887518649,
+      "val_loss": 5.681345954250246,
+      "epoch_time_s": 125.06579054199392
+    },
+    {
+      "epoch": 7,
+      "train_loss": 5.8458167423751375,
+      "val_loss": 5.583768115516513,
+      "epoch_time_s": 126.04195199999958
+    },
+    {
+      "epoch": 8,
+      "train_loss": 5.729324858597655,
+      "val_loss": 5.491498313965096,
+      "epoch_time_s": 127.37851775001036
+    },
+    {
+      "epoch": 9,
+      "train_loss": 5.627507095597723,
+      "val_loss": 5.421644574006436,
+      "epoch_time_s": 125.24929200002225
+    },
+    {
+      "epoch": 10,
+      "train_loss": 5.53791227959291,
+      "val_loss": 5.361451733305539,
+      "epoch_time_s": 130.54905874998076
+    }
+  ],
+  "best_epoch": 10,
+  "test_cross_entropy": 5.298806893077931,
+  "test_ppl": 200.09792927351188,
+  "test_tokens_scored": 239726,
+  "train_time_s": 1276.7368567090016,
+  "inference_time_s": 7.099092624965124,
+  "inference_tokens_per_s": 33768.54094803105,
+  "samples": {
+    "the team scored": "the previous game at the second time 's total on may 14 , the season had been in the third part of the game , and one of the two",
+    "after the election , the": "ship were also a major - of - scale position of the island . the same army of the university , the most of the first of a 1 .",
+    "the film was directed": "by the british force which was appointed the first time of the first time in the early - year series of the game . she was also found on the",
+    "the bird was found in": "the original union of the original series , as well as the song , the latter is a \" the most important - of war [ \" . at the",
+    "the experiment caused": ", but is not only . <eos> the game had a few weeks at the first week . the following year , the film 's brother and the most had"
+  }
+}

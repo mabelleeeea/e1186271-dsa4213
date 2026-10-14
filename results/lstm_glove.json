@@ -1,0 +1,102 @@
+{
+  "run": "lstm_glove",
+  "args": {
+    "model": "lstm",
+    "emb": "glove",
+    "epochs": 10,
+    "batch_size": 64,
+    "seq_len": 64,
+    "lr": 0.001,
+    "emb_dim": 100,
+    "hidden": 256,
+    "layers": 2,
+    "heads": 4,
+    "ff": 1024,
+    "dropout": 0.3,
+    "clip": 1.0,
+    "max_batches": null
+  },
+  "device": "mps",
+  "params": {
+    "total": 8032928,
+    "trainable": 6032928,
+    "embedding": 2000000,
+    "non_embedding": 6032928
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 6.953944755158898,
+      "val_loss": 6.531304133684878,
+      "epoch_time_s": 125.20838629204081
+    },
+    {
+      "epoch": 2,
+      "train_loss": 6.656821575812031,
+      "val_loss": 6.27129450339409,
+      "epoch_time_s": 124.5848535830155
+    },
+    {
+      "epoch": 3,
+      "train_loss": 6.420234124153203,
+      "val_loss": 6.0630311340254615,
+      "epoch_time_s": 124.44394595897757
+    },
+    {
+      "epoch": 4,
+      "train_loss": 6.254011791940603,
+      "val_loss": 5.902283946041011,
+      "epoch_time_s": 122.77451933297561
+    },
+    {
+      "epoch": 5,
+      "train_loss": 6.081215732240959,
+      "val_loss": 5.742483198372246,
+      "epoch_time_s": 122.70388983399607
+    },
+    {
+      "epoch": 6,
+      "train_loss": 5.904506458511438,
+      "val_loss": 5.594167471637619,
+      "epoch_time_s": 124.74635387497256
+    },
+    {
+      "epoch": 7,
+      "train_loss": 5.766405133821312,
+      "val_loss": 5.496658979071734,
+      "epoch_time_s": 120.55651504098205
+    },
+    {
+      "epoch": 8,
+      "train_loss": 5.661271534084722,
+      "val_loss": 5.420033078434021,
+      "epoch_time_s": 119.99916170799406
+    },
+    {
+      "epoch": 9,
+      "train_loss": 5.574475518389667,
+      "val_loss": 5.356111307664302,
+      "epoch_time_s": 121.99038466700586
+    },
+    {
+      "epoch": 10,
+      "train_loss": 5.496591525441234,
+      "val_loss": 5.304023270511345,
+      "epoch_time_s": 126.02244883298408
+    }
+  ],
+  "best_epoch": 10,
+  "test_cross_entropy": 5.229179586962042,
+  "test_ppl": 186.63961911459725,
+  "test_tokens_scored": 239726,
+  "train_time_s": 1233.0304591249442,
+  "inference_time_s": 6.844798292033374,
+  "inference_tokens_per_s": 35023.091955684926,
+  "samples": {
+    "the team scored": "the year for all of his first cup cup games . they was the longest record of the united states , which won in the year of the season .",
+    "after the election , the": "song , which was an second of a series from her music . <eos> the production of the film , and the game was released on a number episode on",
+    "the film was directed": "by the \" sweet video \" : \" the \" \" . \" <eos> a first of the song was the first episode of the first episode to a \"",
+    "the bird was found in": "the 1970s . <eos> in the 1970s of the south century , in the united states , the first of a population of the river area of the church ,",
+    "the experiment caused": "is likely and as more than the year , in a few , including the other exception . the same of the most powerful space , a few - and"
+  }
+}

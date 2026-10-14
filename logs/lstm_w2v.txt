@@ -1,0 +1,19 @@
+Run lstm_w2v on mps
+{'total': 8032928, 'trainable': 6032928, 'embedding': 2000000, 'non_embedding': 6032928}
+epoch  1 | train 6.951 | val 6.498 (ppl 664.0) | 128s
+epoch  2 | train 6.658 | val 6.286 (ppl 536.9) | 126s
+epoch  3 | train 6.427 | val 6.027 (ppl 414.4) | 129s
+epoch  4 | train 6.158 | val 5.772 (ppl 321.2) | 121s
+epoch  5 | train 5.913 | val 5.593 (ppl 268.5) | 119s
+epoch  6 | train 5.739 | val 5.476 (ppl 238.9) | 119s
+epoch  7 | train 5.613 | val 5.387 (ppl 218.6) | 138s
+epoch  8 | train 5.514 | val 5.315 (ppl 203.3) | 134s
+epoch  9 | train 5.433 | val 5.265 (ppl 193.4) | 120s
+epoch 10 | train 5.363 | val 5.219 (ppl 184.7) | 120s
+[the team scored] -> the team with a one player . fowler continued over the end of a year to the first time . the club won up to the two - yard team
+[after the election , the] -> ship of their own armament were not a major army in the region , but he was the last - - - battle . <eos> the ship had captured a
+[the film was directed] -> by the game , making the music for the game . a series of its " , " was one of the series , in the game for its release
+[the bird was found in] -> the town . the most common in a number of the upper of the north and the west , the river of the river ( lake ) , along the
+[the experiment caused] -> them to continue their use . <eos> the game were the first player at the end of the team in the game . despite a time , the team made
+
+lstm_w2v: test ppl 171.83 | best epoch 10 | train 20.9 min | 36003 tok/s

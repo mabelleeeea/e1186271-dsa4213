@@ -1,0 +1,28 @@
+{
+  "model": "trigram interpolated Kneser-Ney",
+  "best_D": 0.9,
+  "valid_ppl_by_D": {
+    "0.5": 269.24856304380853,
+    "0.6": 248.319887080688,
+    "0.7": 233.94770301253328,
+    "0.75": 228.7618249877052,
+    "0.8": 224.85619341175206,
+    "0.85": 222.34989875821637,
+    "0.9": 221.6323144458061,
+    "0.95": 223.93486264473887
+  },
+  "test_cross_entropy": 5.347012858606846,
+  "test_ppl": 209.9801197978345,
+  "train_time_s": 2.036229290999472,
+  "stored_entries": 1890099,
+  "inference_time_s": 0.25856616703094915,
+  "inference_tokens_per_s": 927135.9928977325,
+  "inference_device": "CPU (pure Python)",
+  "samples": {
+    "the team scored": "in the early 1990s . <eos> the film 's production of the best of the show , it was a very good job . <eos> following the arab - israeli",
+    "after the election , the": "album , but was replaced by his contemporaries and consequently , the national anthem . the new zealand and south africa at the time , the game to use as",
+    "the film was directed": "by mark a . m . for the home and away from the south african americans in the united states . the first two men at the time of the",
+    "the bird was found in": "europe , and a number of other players have been the most important national institutions . in a very much a matter of the city . <eos> the first time",
+    "the experiment caused": "by the national register of historic places on december 9 , 1743 ) \u2013 cardinal - priest of s . a few . the following year . the following years"
+  }
+}

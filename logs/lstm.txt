@@ -1,0 +1,19 @@
+Run lstm_random on mps
+{'total': 8032928, 'trainable': 8032928, 'embedding': 2000000, 'non_embedding': 6032928}
+epoch  1 | train 6.952 | val 6.449 (ppl 632.1) | 127s
+epoch  2 | train 6.523 | val 6.137 (ppl 462.6) | 125s
+epoch  3 | train 6.307 | val 5.983 (ppl 396.6) | 129s
+epoch  4 | train 6.177 | val 5.871 (ppl 354.7) | 129s
+epoch  5 | train 6.066 | val 5.786 (ppl 325.6) | 132s
+epoch  6 | train 5.962 | val 5.681 (ppl 293.3) | 125s
+epoch  7 | train 5.846 | val 5.584 (ppl 266.1) | 126s
+epoch  8 | train 5.729 | val 5.491 (ppl 242.6) | 127s
+epoch  9 | train 5.628 | val 5.422 (ppl 226.3) | 125s
+epoch 10 | train 5.538 | val 5.361 (ppl 213.0) | 131s
+[the team scored] -> the previous game at the second time 's total on may 14 , the season had been in the third part of the game , and one of the two
+[after the election , the] -> ship were also a major - of - scale position of the island . the same army of the university , the most of the first of a 1 .
+[the film was directed] -> by the british force which was appointed the first time of the first time in the early - year series of the game . she was also found on the
+[the bird was found in] -> the original union of the original series , as well as the song , the latter is a " the most important - of war [ " . at the
+[the experiment caused] -> , but is not only . <eos> the game had a few weeks at the first week . the following year , the film 's brother and the most had
+
+lstm_random: test ppl 200.10 | best epoch 10 | train 21.3 min | 33769 tok/s

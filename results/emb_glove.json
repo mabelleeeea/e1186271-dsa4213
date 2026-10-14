@@ -1,0 +1,95 @@
+{
+  "source": "GloVe 6B 100d (glove-wiki-gigaword-100)",
+  "pretraining_tokens": "~6 billion (Wikipedia 2014 + Gigaword 5)",
+  "load_time_s": 31.323014624998905,
+  "vocab_size": 20000,
+  "word_types_covered": 19531,
+  "word_type_coverage": 0.9767453490698139,
+  "train_token_coverage": 0.9966592725094551,
+  "missing_examples": [
+    "'t",
+    "\u00b0",
+    "\u2212",
+    "\u00d7",
+    "\u02bb",
+    "garc",
+    "ntav",
+    "rquez",
+    "niowiecki",
+    "magadheera",
+    "\u02c8",
+    "sorraia",
+    "degrom",
+    "\u20b9",
+    "isesi",
+    "\u00ec",
+    "\u00b5",
+    "coldrum",
+    "ikk",
+    "\u01b0",
+    "\u0144",
+    "vandernoot",
+    "\ufeff",
+    "qedarites",
+    "qedar"
+  ],
+  "missing_init": "N(0, 0.5227^2); <pad> = 0",
+  "nearest_neighbours": {
+    "city": [
+      "town",
+      "cities",
+      "where",
+      "area",
+      "downtown"
+    ],
+    "film": [
+      "movie",
+      "films",
+      "directed",
+      "documentary",
+      "drama"
+    ],
+    "war": [
+      "wars",
+      "conflict",
+      "invasion",
+      "military",
+      "occupation"
+    ],
+    "bird": [
+      "flu",
+      "birds",
+      "avian",
+      "virus",
+      "outbreak"
+    ],
+    "election": [
+      "elections",
+      "vote",
+      "polls",
+      "electoral",
+      "presidential"
+    ],
+    "music": [
+      "musical",
+      "songs",
+      "dance",
+      "pop",
+      "recording"
+    ],
+    "king": [
+      "prince",
+      "queen",
+      "son",
+      "brother",
+      "monarch"
+    ],
+    "river": [
+      "rivers",
+      "creek",
+      "lake",
+      "valley",
+      "basin"
+    ]
+  }
+}

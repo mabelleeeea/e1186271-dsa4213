@@ -1,0 +1,19 @@
+Run rnn_random on mps
+{'total': 7363232, 'trainable': 7363232, 'embedding': 2000000, 'non_embedding': 5363232}
+epoch  1 | train 6.600 | val 5.919 (ppl 372.0) | 118s
+epoch  2 | train 6.024 | val 5.674 (ppl 291.3) | 115s
+epoch  3 | train 5.818 | val 5.564 (ppl 260.8) | 115s
+epoch  4 | train 5.688 | val 5.487 (ppl 241.6) | 112s
+epoch  5 | train 5.590 | val 5.426 (ppl 227.3) | 108s
+epoch  6 | train 5.513 | val 5.392 (ppl 219.6) | 112s
+epoch  7 | train 5.451 | val 5.361 (ppl 213.0) | 117s
+epoch  8 | train 5.400 | val 5.336 (ppl 207.7) | 119s
+epoch  9 | train 5.355 | val 5.303 (ppl 201.0) | 112s
+epoch 10 | train 5.318 | val 5.291 (ppl 198.6) | 116s
+[the team scored] -> the goals and he was one of six - winning and in the final , as a result of the series 's team in the united states , and the
+[after the election , the] -> jin would continue to capture the growth of the world of the french century , the first part of the british empire ( the general of a " i ,
+[the film was directed] -> by the song 's video , was released in a series with the album in the episode . the book 's a series of the first game were a single
+[the bird was found in] -> the 17th century , the latter 's main battery and are eventually a small amount of the genus . <eos> in late june the south end of the battle ,
+[the experiment caused] -> heavy casualties and were buried in the town . this is a few miles - 3 - 0 . 6 % of the creek , and the south - south
+
+rnn_random: test ppl 185.40 | best epoch 10 | train 19.1 min | 47979 tok/s

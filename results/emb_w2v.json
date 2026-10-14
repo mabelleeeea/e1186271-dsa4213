@@ -1,0 +1,72 @@
+{
+  "method": "skip-gram (gensim Word2Vec)",
+  "window": 5,
+  "negative": 5,
+  "epochs": 5,
+  "train_tokens": 2044335,
+  "train_time_s": 25.731819542008452,
+  "vocab_size": 20000,
+  "word_types_covered": 19996,
+  "word_type_coverage": 1.0,
+  "train_token_coverage": 1.0,
+  "missing_examples": [],
+  "missing_init": "N(0, 0.1946^2); <pad> = 0",
+  "nearest_neighbours": {
+    "city": [
+      "town",
+      "borough",
+      "ohio",
+      "county",
+      "bradford"
+    ],
+    "film": [
+      "movie",
+      "films",
+      "sholay",
+      "soundtrack",
+      "telugu"
+    ],
+    "war": [
+      "outbreak",
+      "civil",
+      "ii",
+      "wars",
+      "poland"
+    ],
+    "bird": [
+      "starling",
+      "flightless",
+      "crake",
+      "corythosaurus",
+      "snakes"
+    ],
+    "election": [
+      "presidential",
+      "elections",
+      "parliamentary",
+      "presidency",
+      "candidate"
+    ],
+    "music": [
+      "video",
+      "recordings",
+      "jazz",
+      "chrono",
+      "recording"
+    ],
+    "king": [
+      "henry",
+      "emperor",
+      "lord",
+      "throne",
+      "hairan"
+    ],
+    "river": [
+      "missouri",
+      "creek",
+      "mississippi",
+      "plunketts",
+      "lake"
+    ]
+  }
+}

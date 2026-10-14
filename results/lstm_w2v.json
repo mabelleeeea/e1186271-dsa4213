@@ -1,0 +1,102 @@
+{
+  "run": "lstm_w2v",
+  "args": {
+    "model": "lstm",
+    "emb": "w2v",
+    "epochs": 10,
+    "batch_size": 64,
+    "seq_len": 64,
+    "lr": 0.001,
+    "emb_dim": 100,
+    "hidden": 256,
+    "layers": 2,
+    "heads": 4,
+    "ff": 1024,
+    "dropout": 0.3,
+    "clip": 1.0,
+    "max_batches": null
+  },
+  "device": "mps",
+  "params": {
+    "total": 8032928,
+    "trainable": 6032928,
+    "embedding": 2000000,
+    "non_embedding": 6032928
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 6.951155685101981,
+      "val_loss": 6.498318717850096,
+      "epoch_time_s": 128.3042546249926
+    },
+    {
+      "epoch": 2,
+      "train_loss": 6.658066043921476,
+      "val_loss": 6.285800624354066,
+      "epoch_time_s": 126.26357445801841
+    },
+    {
+      "epoch": 3,
+      "train_loss": 6.426657768845198,
+      "val_loss": 6.026740425494433,
+      "epoch_time_s": 128.6833930829889
+    },
+    {
+      "epoch": 4,
+      "train_loss": 6.158280733422822,
+      "val_loss": 5.77217629524475,
+      "epoch_time_s": 120.91129012499005
+    },
+    {
+      "epoch": 5,
+      "train_loss": 5.913072901859395,
+      "val_loss": 5.59301491961056,
+      "epoch_time_s": 118.67355525004677
+    },
+    {
+      "epoch": 6,
+      "train_loss": 5.738600567255147,
+      "val_loss": 5.47585604623714,
+      "epoch_time_s": 118.5334504590137
+    },
+    {
+      "epoch": 7,
+      "train_loss": 5.612929977092415,
+      "val_loss": 5.387391989535867,
+      "epoch_time_s": 137.85492391698062
+    },
+    {
+      "epoch": 8,
+      "train_loss": 5.514463422161205,
+      "val_loss": 5.3145525474761595,
+      "epoch_time_s": 134.21241166698746
+    },
+    {
+      "epoch": 9,
+      "train_loss": 5.432729745206323,
+      "val_loss": 5.264998682441162,
+      "epoch_time_s": 120.34603650000645
+    },
+    {
+      "epoch": 10,
+      "train_loss": 5.363366978154448,
+      "val_loss": 5.218979068063842,
+      "epoch_time_s": 119.99671899998793
+    }
+  ],
+  "best_epoch": 10,
+  "test_cross_entropy": 5.146501150336738,
+  "test_ppl": 171.82923267389958,
+  "test_tokens_scored": 239726,
+  "train_time_s": 1253.779609084013,
+  "inference_time_s": 6.658566458034329,
+  "inference_tokens_per_s": 36002.64433956995,
+  "samples": {
+    "the team scored": "the team with a one player . fowler continued over the end of a year to the first time . the club won up to the two - yard team",
+    "after the election , the": "ship of their own armament were not a major army in the region , but he was the last - - - battle . <eos> the ship had captured a",
+    "the film was directed": "by the game , making the music for the game . a series of its \" , \" was one of the series , in the game for its release",
+    "the bird was found in": "the town . the most common in a number of the upper of the north and the west , the river of the river ( lake ) , along the",
+    "the experiment caused": "them to continue their use . <eos> the game were the first player at the end of the team in the game . despite a time , the team made"
+  }
+}

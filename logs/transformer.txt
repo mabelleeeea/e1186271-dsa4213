@@ -1,0 +1,19 @@
+Run transformer_random on mps
+{'total': 8762272, 'trainable': 8762272, 'embedding': 2000000, 'non_embedding': 6762272}
+epoch  1 | train 6.507 | val 5.861 (ppl 351.1) | 151s
+epoch  2 | train 5.969 | val 5.614 (ppl 274.2) | 150s
+epoch  3 | train 5.725 | val 5.468 (ppl 237.0) | 147s
+epoch  4 | train 5.557 | val 5.381 (ppl 217.2) | 144s
+epoch  5 | train 5.429 | val 5.312 (ppl 202.7) | 151s
+epoch  6 | train 5.329 | val 5.253 (ppl 191.1) | 155s
+epoch  7 | train 5.246 | val 5.214 (ppl 183.7) | 159s
+epoch  8 | train 5.177 | val 5.182 (ppl 178.1) | 160s
+epoch  9 | train 5.118 | val 5.159 (ppl 174.0) | 158s
+epoch 10 | train 5.066 | val 5.133 (ppl 169.6) | 144s
+[the team scored] -> a team on 4 march 1996 . this decision made one with the team as well as the team in the game , as a result of the game .
+[after the election , the] -> king , was appointed of the king , but later in the 19th century . <eos> the cathedral , the general of jerusalem was not considered the first treaty in
+[the film was directed] -> by the episode . despite the character , the song was inspired by the video version of the album , the song had been nominated on the first week of
+[the bird was found in] -> the 1930s . <eos> in march 2007 , there was much of his life . the novel was a " a man . the nightingale for the poem were "
+[the experiment caused] -> as the new zealand regiment to the 6th century in the united states on the north pacific ocean . the north of the late 20th century , the missouri of
+
+transformer_random: test ppl 157.34 | best epoch 10 | train 25.3 min | 31866 tok/s
